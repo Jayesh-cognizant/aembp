@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aembp",
+        "create path (nt:unstructured) /content/dam/aembp/jcr:content",
+        "set properties on /content/dam/aembp/jcr:content\n  set cq:conf{String} to /conf/aembp\n  set jcr:title{String} to \"AEM Cloud Blueprint\"\nend"
+    ]
+}
